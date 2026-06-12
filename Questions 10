@@ -1,0 +1,14 @@
+def find_duplicates(arr):
+    seen = set()
+    duplicates = set()
+    
+    for num in arr:
+        if num in seen:
+            duplicates.add(num)
+        else:
+            seen.add(num)   
+            
+    print("Duplicate elements are:", *duplicates)
+
+arr = [10, 20, 30, 20, 40, 10, 50, 30]
+find_duplicates(arr)
