@@ -1,0 +1,10 @@
+students = { "Aman": 78, "Riya": 92, "Kriti": 88, "Rahul": 95 }
+highest_student = max(students, key=students.get)
+lowest_student = min(students, key=students.get)
+
+print(f"Student with the highest marks : {highest_student} ({students[highest_student]})")
+print(f"Student with the lowest marks  : {lowest_student} ({students[lowest_student]})")
+print("Students who scored more than 85 marks:")
+for name, marks in students.items():
+    if marks > 85:
+        print(f"  - {name}: {marks}")
