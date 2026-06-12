@@ -1,0 +1,14 @@
+data = (5, 10, 15, 20, 25, 30, 35)
+count_div_5 = 0
+for num in data:
+    if num % 5 == 0:
+        count_div_5 += 1
+
+total_sum = sum(data)
+
+total_elements = len(data)
+average = total_sum / total_elements
+
+print("Elements divisible by 5 :", count_div_5)
+print("Sum of all elements     :", total_sum)
+print("Average of the tuple    :", average)
