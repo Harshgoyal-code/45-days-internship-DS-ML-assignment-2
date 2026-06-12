@@ -1,0 +1,4 @@
+fruits=("apple", "banana", "mango", "orange")
+print("Second fruit of the tuple",fruits[1])
+print("Last two fruits of the tuple",fruits[2:])
+print("Total fruits in the tuple is",len(fruits))
