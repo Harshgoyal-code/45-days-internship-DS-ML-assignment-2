@@ -1,5 +1,5 @@
 my_tuple=(10,20,30,40,50)
 print("First element of the tuple",my_tuple[0])
 print("Last element of the tuple",my_tuple[-1])
-print("length of of the tuple",len(my_tuple))
+print("length of the tuple is",len(my_tuple))
 print("Elements from index 1 to 3 of the tuple",my_tuple[1:4])
