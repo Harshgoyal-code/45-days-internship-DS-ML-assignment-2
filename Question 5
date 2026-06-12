@@ -1,0 +1,16 @@
+for dictionary
+student = {"name":"Kriti", "age":20, "course":"Python"} 
+print("complete dict",student)
+print("student name",student["name"])
+print("student age",student["age"])
+
+for the list
+numbers = [12, 45, 7, 23, 56, 89, 34]
+largest = max(numbers)
+smallest = min(numbers)
+numbers.sort()
+second_largest = numbers[-2]
+
+print("Largest element        :", largest)
+print("Second largest element :", second_largest)
+print("Smallest element       :", smallest)
